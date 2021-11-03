@@ -22,9 +22,10 @@ app.post('/Precios',function(req,res){
     console.log(request);
     Contador=+(request.Manzana.Precio*request.Manzana.Cantidad)+(request.Banana.Precio*request.Banana.Cantidad)+(request.Lechuga.Precio*request.Lechuga.Cantidad)+(request.Papa.Precio*request.Papa.Cantidad);
     for(var Producto in request){
-        console.log(Contador);
+        console.log(Producto.Precio); 
+            //res.send(Producto + ": $"+ request.Producto.Precio + " Cantidad:"+Producto.Cantidad);
           res.send("Manzana"+ ": $"+ request.Manzana.Precio + " Cantidad:"+request.Manzana.Cantidad+"||"+"Banana"+ ": $"+ request.Banana.Precio + " Cantidad:"+request.Banana.Cantidad+"||"+"Lechuga"+ ": $"+ request.Lechuga.Precio + " Cantidad:"+request.Lechuga.Cantidad+"||"+"Papa"+ ": $"+ request.Papa.Precio + " Cantidad:"+request.Papa.Cantidad+" // "+"La suma total de la compra es de "+Contador);
-        
-    }
+        }
+    
     
 })
