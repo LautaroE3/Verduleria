@@ -1,0 +1,22 @@
+{
+  "name": "verduleria",
+  "version": "1.0.0",
+  "description": "Repaso Hector",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LautaroE3/Verduleria.git"
+  },
+  "author": "LautaroE3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LautaroE3/Verduleria/issues"
+  },
+  "homepage": "https://github.com/LautaroE3/Verduleria#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

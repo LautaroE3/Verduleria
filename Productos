@@ -1,0 +1,6 @@
+{
+    "Manzana" : {"Precio":30,"Tipo":"Fruta","Cantidad":2},
+    "Banana" : {"Precio":40,"Tipo":"Fruta","Cantidad":3},
+    "Lechuga" : {"Precio":20,"Tipo":"Verdura","Cantidad":4},
+    "Papa" : {"Precio":10,"Tipo":"Fruta","Cantidad":5}
+}
